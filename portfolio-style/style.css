@@ -10,25 +10,137 @@
   font-style: normal;
 }
 
-/* Nav-title class  */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+/* More than used common class start here */
+
+.primary-color{
+    font-weight: 500px;
+    font-size: 20px;
+    color: #474747;
+}
+
+.secondary-color{
+    font-weight: 600px;
+    font-size: 18px;
+    color: #757575;
+}
+
+
+
+/* button style  */
+.btn-style{
+    border-radius: 5px;
+    color: white;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 36px 19px 36px;
+    border: none;
+}
+
+/* More than used common class end here */
+
+
+
+
+
+
+
+
+
+/*  navbar style  start here*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 150px 0 183px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-right: 80px;
+
+}
 
 .nav-title{
     font-weight: 800px;
     font-size: 45px;
 }
 
-/* r-style start here */
 
 .r-style{
     color:orange;
 }
 
-/* start navbar style */
+/* navbar style end here */
 
-nav{
+
+
+
+
+
+
+
+/* Intro part start here */
+
+.intro{
     display: flex;
+    margin: 0 10px 0 183px;
 }
 
-/* start navbar style */
+.intro-description{
+    margin-top: 230px;
+    /* width: 589px;
+    height: 380px; */
+}
 
+.sec-greeting{
+    font-weight: 600px;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 10px;
+}
 
+.sec-title{
+    font-weight: bold;
+    font-size: 85px;
+    color: #181818;
+    margin-bottom: 10px;
+}
+
+.sec-description{
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.btn-gap{
+    margin-right: 15px;
+}
+
+.profile-img{
+    width: 584px;
+    height: 540px;
+}
+
+/* Intro part end here */
