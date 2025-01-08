@@ -36,6 +36,10 @@
     color: #757575;
 }
 
+.bg-color{
+    background-color: #FFF8F3;
+}
+
 
 
 /* button style  */
@@ -57,6 +61,16 @@
 
 
 
+
+
+
+/* header start here */
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 
 /*  navbar style  start here*/
@@ -144,3 +158,70 @@ nav ul li a{
 }
 
 /* Intro part end here */
+
+/* header end here */
+
+
+
+
+
+
+/* main section start here */
+
+main{
+    max-width: 1140px;
+    margin: 0 183px;
+}
+
+/* bio-data start here */
+.bio-data{
+    margin: 116px 0 144px 0;
+    padding: 145px 157px 117px 156px;
+    background-color: #FFFFFF;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+
+.bio-data-description{
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bio-data-information{
+    display: flex;
+    padding: 0 8px;
+}
+
+.bio-data-info-all{
+    margin-right: 35px;
+}
+
+.bio-data-info-details{
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+}
+
+.bio-data-info-address{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #474747;
+}
+
+
+/* bio-data end here */
+
+
+/* main section end here */
